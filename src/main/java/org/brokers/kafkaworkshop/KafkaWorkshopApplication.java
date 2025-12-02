@@ -19,7 +19,7 @@ public class KafkaWorkshopApplication {
         SpringApplication.run(KafkaWorkshopApplication.class, args);
     }
 
-    @Bean
+//    @Bean
     public CommandLineRunner commandLineRunner() {
         AtomicInteger counter = new AtomicInteger();
         return args -> {
